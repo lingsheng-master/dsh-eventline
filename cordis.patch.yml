@@ -1,0 +1,4 @@
+# dsh-eventline：只挂 Node half（只加工具，不碰任何前端 slot）
+- insert:
+    - id: dsh-eventline
+      name: dsh-eventline

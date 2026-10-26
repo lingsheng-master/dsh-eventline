@@ -1,0 +1,12 @@
+{
+  "name": "dsh-eventline",
+  "version": "0.2.0",
+  "description": "小鱼娘的事件线：跨端（DSH/QQ/B站/桌宠/定时）共用的只追加事件记录，让四个入口看起来是同一个她。单文件、零外部依赖、纯宿主。",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": { ".": { "default": "./index.mjs" }, "./cordis.patch.yml": "./cordis.patch.yml", "./package.json": "./package.json" },
+  "files": ["index.mjs", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-bundle", "deepseek-harness", "event", "timeline"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
